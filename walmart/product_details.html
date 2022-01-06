@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/c5df6b2bbe.js" crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="/walmart/cssFiles/productDetails.css">
+
+
+</head>
+<body>
+    
+    <div class = "navbar">
+		
+        <div >
+            <a href="index001.html"><img src= "https://i5.walmartimages.com/dfw/63fd9f59-b3e1/7a569e53-f29a-4c3d-bfaf-6f7a158bfadd/v1/walmartLogo.svg" /> </a>
+        </div>
+        <div class="dropdown">
+            <li class="dropbtn"><a href="#" ><i class="fas fa-th-large icon"></i></a>Departments</li>
+            <div class="dropdown-content">
+                                    <a>All Departments</a>
+                                    <a>Electronics</a>
+                                    <a>Clothings</a>
+                                    <a>Toys & Games</a>
+                                    <a>Grocery</a>
+                                    <a>Home Furniture & Appliances</a>
+                                    <a>Household Essentials</a>
+                                    <a>Beauty</a>
+                                    <a>Personal Care</a>
+                                    <a>Sports & Outdoor</a>
+            </div>
+        </div> 
+
+        <div class="dropdown">
+            <li class="dropbtn"><a href="#" ><i class="fas fa-th-large icon"></i></a>Services</li>
+            <div class="dropdown-content">
+                                  
+                    <a> All Services</a>
+                    <a>Auto Care centre</a>
+                    <a>Health Service</a>
+                    <a>Custom Cakes</a>
+                    <a>Photo Services</a>
+                    <a>List, Gifts & Registries</a>
+                    <a>Financial Services</a>
+                    <a>Get Inspried</a>
+            </div>
+        </div> 
+        
+    
+            
+        <div class="search-box">
+            <input type="text" id =  "Search" placeholder="Search Everything at Walmart online and in store" >
+            <img class="searchIcon" src="https://cdn.iconscout.com/icon/free/png-256/search-1399-475061.png" alt="">
+    </div>
+
+        <div class="dropdown">
+            <li class="dropbtn"><a href="#" ><i class="far fa-folder icon"></i></a>My Items</li>
+            <div class="dropdown-content">
+                                  
+                    <a><i class="fa-thin fa-box-open"></i>Reorder</a>
+                    <a><i class="fa-thin fa-rectangle-list"></i>Lists</a>
+                    <a><i class="fa-thin fa-gift-card"></i>Registries</a>
+            </div>
+        </div> 
+        
+        
+        <div class="dropdown">
+            <li class="dropbtn"><a href="#" ><i class="far fa-folder icon"></i></a>Account</li>
+            <div class="dropdown-content">
+                                  
+                    <button id="btn1"><a href="sign_in.html">Sign In</a></button>
+                    <button id="btn2"><a href="sign-up.html">Create An Account</a></button>
+                    <a><i class="fa-thin fa-scroll-old"></i>Purchace History</a>
+            </div>
+        </div>   
+        
+        
+        
+        <div  class = "dropdown" id = "cart">
+        <li class="dropbtn"><a href="#" ><i class="fas fa-shopping-cart icon"></i></a>Cart</li>
+        </div>	
+</div>
+
+
+      <div id="maindiv" >
+            <div class="container">
+                <div class="wrapper">
+                    <div class="product-box">   
+                        <div class="all-images">      <!----- product images --->
+                                <div class="small-images">
+                                    <img src="https://i5.walmartimages.com/asr/9d67ee17-f47d-4cc9-946e-2e8a6e9f4e36_2.ef65a46ba2eb869506230a842d542414.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF" alt=""  onclick="clickimg(this)">
+                                    <img src="https://i5.walmartimages.com/asr/7e87d80a-eef5-4894-b7d0-0da0b791d0e5_1.1510c7e4be8a0abfeaee0442c882c85f.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF" alt="" onclick="clickimg(this)">
+                                    <img src="https://i5.walmartimages.com/asr/acd1d39e-d791-4ad1-8f15-bb4c30ea4505_2.97492e358e1ea3de4806a79cb1a6ef1d.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF" alt="" onclick="clickimg(this)">
+                                    <img src="https://i5.walmartimages.com/asr/314d3b1b-cabe-4f13-8c35-ee85d4e1aad2.04297fbb347d21510795d07ae32fae68.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF" alt="" onclick="clickimg(this)">
+                                    <img src="https://i5.walmartimages.com/asr/4a4f25e7-0026-41ab-a0cb-f3937d0ebd7d_1.674b172b3acdf235f47096735c40c40d.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF" alt="" onclick="clickimg(this)">
+                                </div>
+                                <div class="main-img">
+                                    <img src="https://i5.walmartimages.com/asr/5ccd179f-f611-4762-b935-22e2c385eab5_2.2cb04ae5d4e8d071d2b12573bde15d61.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF" alt="" id="image-box">
+                                </div>
+                        </div>
+                    </div>
+
+                    <div class="text">
+                        <div class="content">
+                            <div class="content-Ist">
+                                <div id="cont1">
+                                    <div>Clearance</div> <div>Popular pick</div>
+                                </div>
+                            
+                                <p id="small-text">Lenovo</p>
+                                <p id="Isttext"><b> Lenovo C340 11.6" Celeron Touch 4GB/32GB Chromebook Chrome OS - Platinum Grey - 81TA0010US</b></p>
+                                <div>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>(4.4) <span> 457 review</span>
+                                </div>
+                                <p id="price"> <b>$179.00 </b> <span id="prize-cut">$259.00</span>
+                                </p><span id="emi-option"><b>$17/mo </b>with </span><img src="https://cdn-assets.affirm.com/images/black_logo-white_bg.jpg" alt="" style="height: 50px;height: 20px;"> <span>Learn more</span>
+                                <div id="btn_cartBuy">
+                                    <div class="btn_cart" id="btn_buy"><b> Buy Now</b></div>
+                                    <div class="btn_cart"  id="btn_cart"><b> Add to cart</b></div>
+                                </div>
+                            </div>
+                            <div class="content-Ist">
+                                <p><i class="fas fa-truck icon2"></i><span class="span-text">Free shipping, arrives by Sat, Oct 2 to Bentonville, 72712</span> </p>
+                                <p><i class="far fa-star icon2"></i>Sold and shipped by Walmart.com</p>
+                                <p><i class="fas fa-undo-alt icon2"></i>Free 30-Day returns Details</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        
+     </div>
+
+
+     <div class ="mainpage2">
+        <div><h3  class ="build" style="margin-bottom: 0px;">Similar items you might like
+        </h3><p style="margin-top: 0px; color: rgb(109, 106, 106);font-size: 15px;" >Based on what customers bought</p></div>
+        <div class = "first">
+            <div>
+                <div>
+                    <a class="description" href="C:\Users\HP\Documents\GitHub\Walmart\madhurima\product_details.html"><img class = "img1" src = "https://i5.walmartimages.com/asr/b62d59a5-d7c6-4e36-ba8f-774f0cbc5466_9.79edcdbc05fdea8fc2e56824f61a17c8.jpeg?odnHeight=300&odnWidth=300&odnBg=FFFFFF"/></a>
+                    <div class = "add">
+                        <p class ="addclr">+ Add</p>
+                        
+                        
+        
+                    </div>
+                    <a class="description" href="C:\Users\HP\Documents\GitHub\Walmart\madhurima\product_details.html"><div class = "product"><b>$127.00</b></div>
+                    <div>SAMSUNG CB4 11.6</div>
+                    <div>Pickup</div></a>
+                    </div>
+            </div>
+            
+    
+    
+    
+            <div>
+                <div>
+                    <a class="description" href="C:\Users\HP\Documents\GitHub\Walmart\madhurima\product_details.html"><img class = "img1" src = "https://i5.walmartimages.com/asr/df249a64-b191-4a6d-a1b7-de9ebf129812_1.594fe5fdac4f5a262aa044b660a82754.jpeg?odnHeight=300&odnWidth=300&odnBg=FFFFFF"/></a>
+                    <div class = "add">
+                        <p class ="addclr">+ Add</p>
+                        
+                        
+        
+                    </div>
+                    <a class="description" href="C:\Users\HP\Documents\GitHub\Walmart\madhurima\product_details.html"><div class = "product"><b>$89.99</b></div>
+                    <div> Samsung XE303C12-A01US 11.6</div>
+                    <div>Pickup</div></a>
+                    </div>
+    
+            </div>
+    
+    
+            <div>
+                <div>
+                    <a class="description" href="C:\Users\HP\Documents\GitHub\Walmart\madhurima\product_details.html"><img class = "img1" src = "https://i5.walmartimages.com/asr/3cf5c914-804a-430a-a9f3-4d271468a84b_1.08e66784d5248ee54937a1f30e167225.jpeg?odnHeight=300&odnWidth=300&odnBg=FFFFFF"/></a>
+                    <div class = "add">
+                        <p class ="addclr">+ Add</p>
+                        
+                        
+        
+                    </div>
+                    <a class="description" href="C:\Users\HP\Documents\GitHub\Walmart\madhurima\product_details.html"><div class = "product"><b>$109.90</b></div>
+                    <div>HP ChromeBook 11 G4 11.6</div>
+                    <div>Pickup</div></a>
+                    </div>
+    
+            </div>
+            
+        
+            
+    
+                <div>
+                    <div>
+                        <a class="description" href="C:\Users\HP\Documents\GitHub\Walmart\madhurima\product_details.html"><img class = "img1" src = "https://i5.walmartimages.com/asr/6560d223-8da7-4c69-a3f5-00f9ec471e46_1.62d3280834e9b73e26893f2e76b80366.jpeg?odnHeight=300&odnWidth=300&odnBg=FFFFFF"/></a>
+                        <div class = "add">
+                            <p class ="addclr">+ Add</p>
+                            
+                            
+            
+                        </div>
+                        <a class="description" href="C:\Users\HP\Documents\GitHub\Walmart\madhurima\product_details.html"><div class = "product"><b>$359.98</b></div>
+                        <div>HP 14 Laptop, Intel Celeron N4000</div>
+                        <div>Pickup</div></a>
+                        </div>
+            </div>
+            
+        </div>
+                    
+    </div>
+
+
+    <script src="./script/proDetails.js"></script>
+</body>
+</html>
+

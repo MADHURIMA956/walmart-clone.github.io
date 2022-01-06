@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Products</title>
+	<script src="https://kit.fontawesome.com/c5df6b2bbe.js" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" href="/walmart/cssFiles/products.css">
+
+
+	
+</head>
+<body>
+
+
+	  
+    <div class = "navbar">
+		
+        <div >
+            <a href="index001.html"><img src= "https://i5.walmartimages.com/dfw/63fd9f59-b3e1/7a569e53-f29a-4c3d-bfaf-6f7a158bfadd/v1/walmartLogo.svg" /> </a>
+        </div>
+        <div class="dropdown">
+            <li class="dropbtn"><a href="#" ><i class="fas fa-th-large icon"></i></a>Departments</li>
+            <div class="dropdown-content">
+                                    <a>All Departments</a>
+                                    <a>Electronics</a>
+                                    <a>Clothings</a>
+                                    <a>Toys & Games</a>
+                                    <a>Grocery</a>
+                                    <a>Home Furniture & Appliances</a>
+                                    <a>Household Essentials</a>
+                                    <a>Beauty</a>
+                                    <a>Personal Care</a>
+                                    <a>Sports & Outdoor</a>
+            </div>
+        </div> 
+
+        <div class="dropdown">
+            <li class="dropbtn"><a href="#" ><i class="fas fa-th-large icon"></i></a>Services</li>
+            <div class="dropdown-content">
+                                  
+                    <a> All Services</a>
+                    <a>Auto Care centre</a>
+                    <a>Health Service</a>
+                    <a>Custom Cakes</a>
+                    <a>Photo Services</a>
+                    <a>List, Gifts & Registries</a>
+                    <a>Financial Services</a>
+                    <a>Get Inspried</a>
+            </div>
+        </div> 
+        
+    
+            
+                
+               
+        <div class="search-box">
+			<input type="text" id =  "Search" placeholder="Search Everything at Walmart online and in store" >
+			<img class="searchIcon" src="https://cdn.iconscout.com/icon/free/png-256/search-1399-475061.png" alt="">
+		</div>
+
+        <div class="dropdown">
+            <li class="dropbtn"><a href="#" ><i class="far fa-folder icon"></i></a>My Items</li>
+            <div class="dropdown-content">
+                                  
+                    <a>Reorder</a>
+                    <a><i class="fa-thin fa-rectangle-list"></i>Lists</a>
+                    <a><i class="fa-thin fa-gift-card"></i>Registries</a>
+            </div>
+        </div> 
+        
+        
+        <div class="dropdown">
+            <li class="dropbtn"><a href="#" ><i class="far fa-folder icon"></i></a>Account</li>
+            <div class="dropdown-content">
+                                  
+                    <button id="btn1"><a href="sign-in.html">Sign In</a></button>
+                    <button id="btn2"><a href="sign-up.html">Create An Account</a></button>
+                    <a><i class="fa-thin fa-scroll-old"></i>Purchace History</a>
+            </div>
+        </div>   
+        
+        
+        
+        <div  class = "dropdown" id = "cart">
+        <li class="dropbtn"><a href="payment.html" ><i class="fas fa-shopping-cart icon"></i></a>Cart</li>
+		<div id = "cartSize"> </div>
+        </div>	
+</div>
+
+
+
+		<div id="container">
+		
+			<div><button class="btn_header" onclick = "sortLtoH()"> Sort Low  High</button></div>
+			<div><button class="btn_header" onclick = "sortHtoL()"> Sort High To Low</button></div>
+			<div><button class="btn_header" onclick = "filterbyPrice()"> Filter</button></div>
+		  
+		</div>
+		<div id ="products"></div>
+		
+		
+
+</body>
+</html>
+
+<script src="script/product.js"></script>

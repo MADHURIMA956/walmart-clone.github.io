@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>old A</title>
+
+	<link rel="stylesheet" href="/walmart/cssFiles/signin.css">
+
+</head>
+<body>
+	<header class="head">
+		<a href="index001.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoGEm6qo6OiF9-A2zByycQbTbw9nT5z6_FP8fNyDnn985F-XMdDKoteDwWd82xrO9idoQ&usqp=CAU"></a> 
+	 </header>
+	
+	<form id = "myForm"onsubmit="signin(event)" action ="">
+		<h3>Sign in to your Walmart account</h3>
+		<div class = "clr">
+			<input type="text" id="email"  placeholder="Email">
+		 </div>  
+		 <div>
+            <input type="password" id="password" placeholder="Password">
+        </div>  
+
+		<div class="pass-link"><a href="#">Forgot passward</a></div>
+        <div>
+
+			<input type ="submit" value="Sign in" onclick = "success()  " id = "Signin" />
+
+		
+			<p>Don't have an account?</p>
+            <button id="signup"><b><a id="change_text" href="sign-up.html"> Create account</a></b></button>
+</form>
+<script src="./script/signIn.js"></script>
+</body>
+</html>
+

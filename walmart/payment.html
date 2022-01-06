@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<link rel="stylesheet" href="/walmart/cssFiles/payment.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Domine:wght@500&family=Noto+Sans+Display:wght@500;700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Domine:wght@500&family=Noto+Sans+Display:wght@500;700&family=Yaldevi:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class = "navbar">
+		
+
+		<div class = "maindiv ">
+			<button class = "backbtn " onclick = "aa()"><</button>
+			<div>
+				
+			</div>
+			<b>Review Order</b>
+		</div>
+	</div>
+    
+	<a href = "checkout.html" ><button class = "go"></button></a>
+
+	<div class ="bigcnt">
+		<div class ="container">
+			<div class ="ship">
+				<div class ="shipd">
+					<img  id = "truckimg"src="https://cdn3.iconfinder.com/data/icons/means-of-transportation/160/truck-1024.png"/>
+					<b> Shipping, arrives by Thu,Sep 30</b></div>
+
+				     <div class = "shipa">
+						<div class = "address">Dheeraj Mehta
+						</div>
+						<div class = "address"> House No. 1140/18 ,Uttam Nagar ,Hansi, Hansi, AR 12503</div>
+
+					 </div>
+						
+						
+					
+						
+						<div class ="iteminside">
+						<div class = "item">
+							<b>Item Details </b> 
+							<div class = "chk">
+								<div class = "totlitm"> Items</div>
+								<div id = "cartSize"> </div>
+							</div>
+						
+	
+	
+							<div id = "products"></div>
+	
+							</div>
+						</div>
+				</div>
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+			<div class ="wallet">
+			
+				<div class ="shipd">
+					<img  id = "truckimg"src="https://cdn4.iconfinder.com/data/icons/eon-ecommerce-i-1/32/wallet_finance_balance_money_pay-1024.png"/>
+					<b>Wallet</b></div>
+
+					<div class = "putpymt">
+						<div class ="dollar">
+                        <p class = "dlrclr">$</p>
+						</div>
+						<div><b>Put your payments to use</b>
+							<div class = "align">We’ll recommend the best ways to pay for eligible items in your order.</div></div>
+						
+					</div>
+					<div class ="addapymt" id="myBtn">
+                        
+						<b>Add  payment Method</b>
+					  <b></b>	
+					</div>
+			   </div>
+			
+			
+		</div>
+
+
+		<div class ="container1">
+			<div class="c1">
+				<div class ="placeorder" onclick = success()>
+					<b>Place order</b>	
+				  </div>
+				  <div class = "tnc">By placing this order, you agree to our Privacy Policy and Terms of Use</div>
+		<div class = "r1">
+			<div class ="subtotal" ><b >Subtotal</b>
+			
+		
+			</div>
+			<div class ="subtotal"><b >Estimated taxes</b></div>
+		</div>
+		<div class = "r2">
+		<div class = " chk1"><b >Estimated total</b></div>	
+
+		<div id = "cartAmount" ></div>
+		</div>
+		<div class = "r3">Promocode</div>
+		</div>
+		</div>
+	</div>
+	
+
+
+<!-- Trigger/Open The Modal -->
+
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+		<span class="close">&times;</span>
+      <h2 >Payments</h2>   
+    </div>
+    <div class="modal-body"style="font-size:20px ; font-family: 'Domine', serif; background-color:rgb(2, 123, 236);color:white;">
+		<div >
+			Credit card/ Debit Card
+		</div>
+      
+      
+    </div>
+    <div class="modal-footer">
+      
+		<form  onsubmit="signup(event)" action="" id="myForm">
+     
+			<input type="text" id="fname" class="inputClass" outocomplete="off" placeholder="Credit/Debit Card" >
+			<!-- <label for="fname" class="fname-label">First name</label> -->
+           
+			<input type="text" id="lname" class="inputClass" placeholder="Cardholder Name">
+			<input type="text" id="email" class="inputClass" placeholder="Expiry">
+			<input type="password" id="password" class="inputClass" placeholder="Cvv">
+			</form>
+	 
+
+</div>
+<div class ="placeorder1" >
+	<a href="payment.html" >
+	<b>Save Card</b>	
+  </div>
+	
+  </div>
+
+</div>
+
+
+<script src="./script/payment.js"></script>
+</body>
+</html>
+
+
+	
+
+
+	
+
+
+	
+	
