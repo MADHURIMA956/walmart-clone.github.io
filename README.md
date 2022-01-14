@@ -4,7 +4,7 @@ This is our very First Project at Masai School.
 
 ## Our Project's Deploy Link :)
 
-### https://madhurima956.github.io/walmart-clone.github.io/walmart/index001.html
+### https://walmart-clone.netlify.app/walmart/index001.html
 
 ## Project Description:
 
